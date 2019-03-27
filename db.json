@@ -1,0 +1,10 @@
+{
+    "dependencies": [
+        {
+            "name": "Asset Portal Service",
+            "code": "portal-service",
+            "description": "The Asset Portal Service Dependency",
+            "status": "Not ok"
+        }
+     ]
+}

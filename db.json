@@ -44,5 +44,28 @@
             "status": "ok"
         }
     ]
+  },
+  "test3": {
+    "status": "ok",
+    "dependencies": [
+        {
+            "name": "Asset Portal Service",
+            "code": "portal-service",
+            "description": "The Asset Portal Service Dependency",
+            "status": "ok"
+        },
+        {
+            "name": "Graph Service",
+            "code": "graph-service",
+            "description": "The Graph Service Dependency",
+            "status": "not ok"
+        },
+        {
+            "name": "Graph Node Service",
+            "code": "graph-node-service",
+            "description": "The Graph Node Service Dependency (v2)",
+            "status": "not ok"
+        }
+    ]
   }
 }

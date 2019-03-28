@@ -1,4 +1,5 @@
 {
+  "test1": {
     "status": "ok",
     "dependencies": [
         {
@@ -17,73 +18,31 @@
             "name": "Graph Node Service",
             "code": "graph-node-service",
             "description": "The Graph Node Service Dependency (v2)",
+            "status": "not ok"
+        }
+     ]
+  },
+  "test2": {
+    "status": "not ok",
+    "dependencies": [
+        {
+            "name": "Asset Portal Service",
+            "code": "portal-service",
+            "description": "The Asset Portal Service Dependency",
             "status": "ok"
         },
         {
-            "name": "CS Service",
-            "code": "cs-service",
-            "description": "The CS Service Dependency",
+            "name": "Graph Service",
+            "code": "graph-service",
+            "description": "The Graph Service Dependency",
             "status": "ok"
         },
         {
-            "name": "Asset review Service",
-            "code": "asset-review-service",
-            "description": "The Asset Review Service Dependency",
-            "status": "ok"
-        },
-        {
-            "name": "Asset Manager Service",
-            "code": "asset-manager-service",
-            "description": "The Asset Manager Service Dependency",
-            "status": "ok"
-        },
-        {
-            "name": "Dependency Resolver Service",
-            "code": "dependency-resolver",
-            "description": "The Dependency Resolver Service Dependency",
-            "status": "ok"
-        },
-        {
-            "name": "API Metadata Service",
-            "code": "api-metadata",
-            "description": "The API Metadata Service Dependency",
-            "status": "ok"
-        },
-        {
-            "name": "Search Service",
-            "code": "search",
-            "description": "The Search Service Dependency",
-            "status": "ok"
-        },
-        {
-            "name": "API Manager Service",
-            "code": "api-manager",
-            "description": "API Manager Service Dependency",
-            "status": "ok"
-        },
-        {
-            "name": "Custom Assets Facade Service",
-            "code": "custom-assets-service",
-            "description": "The Custom Assets Facade Service Dependency",
-            "status": "ok"
-        },
-        {
-            "name": "Customization Service",
-            "code": "customization-service",
-            "description": "The Customization Service Dependency",
-            "status": "ok"
-        },
-        {
-            "name": "VCS Service",
-            "code": "vcs-service",
-            "description": "VCS Service Dependency",
-            "status": "ok"
-        },
-        {
-            "name": "AMF Service",
-            "code": "amf-service",
-            "description": "AMF Service Dependency",
+            "name": "Graph Node Service",
+            "code": "graph-node-service",
+            "description": "The Graph Node Service Dependency (v2)",
             "status": "ok"
         }
     ]
+  }
 }
